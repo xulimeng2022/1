@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="baidu-site-verification" content="code-nXOseIDeWl" />
+    <title>白云网</title>
+    <meta name="theme-color" content="#76d8ff"/>
+    <meta name="description" content="徐力萌的自制网站。" />
+    <meta name="keywords" content="徐力萌，白云网" />
+    <meta name="copyright" content="白云网" />
+    <meta name="author" content="徐力萌" />
+    <meta name="reply-to" content="2913895771@qq.com" />
+    <meta name="robots" content="all" />
+    <meta property="og:image" content="/baiyunwanglogo.png" />
+    <meta name="og:title" content="白云网" />
+    <meta
+      name="og:url"
+      content="https://hello-8gi51fgya71d343c-1313086939.tcloudbaseapp.com"
+    />
+    <meta name="og:description" content="徐力萌的自制网站。" />
+    <!-- config -->
+    <link rel="icon" href="/ico/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
+    <link
+      rel="apple-touch-icon"
+      href="/png/apple-icon-180x180-seochecker-manifest-4827.png"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: #eee;
+      }
+      .yinying {
+        box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+          rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+      }
+      .flex {
+        display: flex;
+      }
+      .baise {
+        background-color: white;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .mg8 {
+        margin: 8px;
+      }
+      .mgl8 {
+        margin-left: 8px;
+      }
+      .mgr8 {
+        margin-right: 8px;
+      }
+      .mgt8 {
+        margin-top: 8px;
+      }
+      .daohang {
+        padding: 10px 20px;
+        border-bottom: 1px solid rgb(190, 190, 190);
+        font-size: 14px;
+        color: #666;
+      }
+      .juZhong {
+        align-items: center;
+        justify-content: center;
+      }
+      .ztysjb {
+        background: linear-gradient(45deg, blue, red);
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      .anNiu{
+        cursor: pointer;
+      }
+      /* 当屏幕小于600px时要改变的css */
+      @media (max-width: 600px) {
+        .cebian {
+          display: none;
+        }
+        .neirong {
+          flex-direction: column;
+        }
+        .neRongQu {
+          margin-left: 0px;
+          flex: auto;
+        }
+      }
+      .neirong::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  </head>
+  <body class="flex" onload="time()">
+    <!--侧边栏-->
+    <div style="width: 200px; z-index: 2" class="cebian baise yinying">
+      <!-- 头像栏 -->
+      <div
+        style="
+          padding: 10px;
+
+          border-bottom: 1px solid #999;
+        "
+        class="flex juZhong"
+      >
+        <img src="/png/yonghutouxiang.png" width="40px" height="40px" alt="" />
+        <div style="margin-left: 10px">用户名</div>
+      </div>
+      <!-- 导航栏 -->
+      <div class="flex1">
+        <div class="daohang">导航</div>
+        <div class="daohang">导航</div>
+        <div class="daohang">导航</div>
+        <div class="daohang">导航</div>
+        <div class="daohang">导航</div>
+      </div>
+    </div>
+    <!--主区域-->
+    <div class="flex1 flex column">
+      <!--头部栏-->
+      <div
+        style="height: 60px; z-index: 1"
+        class="baise yinying flex column juZhong"
+      >
+        <img src="/png/baiyunwanglogo.png" width="40px" height="40px" alt="logo" />
+      </div>
+      <!--内容区-->
+      <div style="overflow: auto" class="neirong flex1 column neRongQu mgl8">
+        <!-- 分区 -->
+        <div style="height: 160px" class="baise yinying flex column juZhong mgt8"><a href="html/shizhong.html" title="进入罗盘时钟"> 
+            <button class="ztysjb anNiu">罗盘时钟</button></a>
+            <p style="font-size: 10px;"><b>提示：</b>此子页<b>电脑端</b>打开体验更佳</p></div>
+        <!-- 分区 -->
+        <div style="height: 160px" class="baise yinying flex column juZhong mgt8">
+          <a href="/html/xiaoyouxi.html" title="进入小游戏专区">
+            <button class="ztysjb anNiu">小游戏</button></a>
+          </div>
+        <!-- 分区 -->
+        <div style="height: 160px" class="baise yinying flex column juZhong mgt8"><a href="/html/baiyungeting.html" title="进入白云歌厅"> 
+            <button class="ztysjb anNiu">白云歌厅</button></a>
+            <p style="font-size: 10px;"></p></div>
+        <!-- 分区 -->
+        <div style="height: 160px" class="baise yinying flex juZhong mgt8"><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2913895771&amp;site=qq&amp;menu=yes" target="_blank">
+                <img border="0" alt="徐力萌的QQ" src="/png/qq.png" title="Hi,戳我联系站长" width="40" height="40">
+            </a>
+            <p>联系站长</p>
+          </div>
+      </div>
+      <!-- 网站运行时间 -->
+      <div>
+        <h2 style=" height: 30px; z-index: 1; text-align: center; color: rgb(143, 243, 254)" id="showtime"></h2>
+      </div>
+      <!-- 底部栏 -->
+      <div
+        style="height: 80px; z-index: 1; line-height: 0"
+        class="baise flex column juZhong"
+      >
+        <p>网站所有：徐力萌</p>
+        <p>⭐ 2022 ⭐</p>
+      </div>
+    </div>
+    <!-- 加载sw.js -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
+
+    <!-- 时间 -->
+    <script>
+      function time() {
+        t_div = document.getElementById("showtime");
+        var now = new Date();
+        setTimeout(time, 1000);
+        var dangqian =
+          now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + now.getDate();
+        t_div.innerHTML =
+          "白云网已运行：" + DateDiff("2022-07-29", dangqian) + " 天";
+      }
+      /* 计算运行天数的封装函数 */
+      function DateDiff(sDate1, sDate2) {
+        //sDate1和sDate2是2002-12-18格式
+        var aDate, oDate1, oDate2, iDays;
+        aDate = sDate1.split("-");
+        oDate1 = new Date(aDate[1] + "-" + aDate[2] + "-" + aDate[0]); //转换为12-18-2002格式
+        aDate = sDate2.split("-");
+        oDate2 = new Date(aDate[1] + "-" + aDate[2] + "-" + aDate[0]);
+        iDays = parseInt(Math.abs(oDate1 - oDate2) / 1000 / 60 / 60 / 24); //把相差的毫秒数转换为天数
+        return iDays;
+      }
+    </script>
+   
+    </script>
+  </body>
+</html>
